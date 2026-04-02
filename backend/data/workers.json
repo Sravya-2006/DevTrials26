@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "vishwa",
+    "phone": "+91 123456789",
+    "upi_id": "123@okhdfc",
+    "upi_provider": "gpay",
+    "zone_pincode": "560001",
+    "city": "Bengaluru",
+    "platform": "amazon",
+    "peak_start": 17,
+    "peak_end": 21,
+    "avg_weekly_income": 5000,
+    "password_hash": "$2a$10$KlrysMZHtT7cm2dQJxA2VOKe/RnhKJ25PlwOzWo4thkxCnsuJiA1.",
+    "account_created_at": "2026-03-28T18:12:13.453Z",
+    "is_verified": true,
+    "is_blacklisted": false
+  },
+  {
+    "id": 2,
+    "name": "Shreya",
+    "phone": "+91 345678901",
+    "upi_id": "1467@okhdfcbank",
+    "upi_provider": "phonepe",
+    "zone_pincode": "400001",
+    "city": "Mumbai",
+    "platform": "flipkart",
+    "peak_start": 17,
+    "peak_end": 21,
+    "avg_weekly_income": 5000,
+    "password_hash": "$2a$10$1adhCCyYp5w3Of71We3ws.epQzARUtXRiFywFTV03P1SlPfVoTvF.",
+    "account_created_at": "2026-03-28T18:21:36.794Z",
+    "is_verified": true,
+    "is_blacklisted": false
+  }
+]

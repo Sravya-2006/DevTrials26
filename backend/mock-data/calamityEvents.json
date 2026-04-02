@@ -1,0 +1,20 @@
+{
+  "weather_events": [
+    { "name": "IMD Red Alert - Heavy Rainfall", "severity": "red", "affected_zones": ["560001", "560002", "560003"], "source": "IMD", "is_active": true, "description": "IMD declares red alert for heavy rainfall in Bengaluru" },
+    { "name": "IMD Orange Alert - Flood Warning", "severity": "orange", "affected_zones": ["400001", "400002"], "source": "NDMA", "is_active": true, "description": "Flash flood warning in Mumbai low-lying areas" },
+    { "name": "Heat Wave Advisory 46C", "severity": "red", "affected_zones": ["110001"], "source": "IMD", "is_active": false, "description": "Severe heat wave in Delhi" }
+  ],
+  "aqi_events": [
+    { "name": "CPCB Severe Pollution Alert AQI 450", "aqi": 450, "severity": "severe", "affected_zones": ["110001", "110002"], "source": "CPCB", "is_active": false, "description": "AQI crosses 450 in Delhi" },
+    { "name": "CPCB Hazardous Air Quality AQI 420", "aqi": 420, "severity": "hazardous", "affected_zones": ["400001"], "source": "CPCB", "is_active": false, "description": "Hazardous air quality in Mumbai" }
+  ],
+  "civic_events": [
+    { "name": "Section 144 Declared - Local Protest", "type": "curfew", "affected_zones": ["560001", "560002"], "source": "NewsAPI", "is_active": true, "description": "Section 144 imposed in Bengaluru due to civil unrest" },
+    { "name": "Bandh Called - Trade Union Strike", "type": "bandh", "affected_zones": ["400001", "400002"], "source": "NewsAPI", "is_active": false, "description": "City-wide bandh in Mumbai" },
+    { "name": "Market Zone Closure - Authority Order", "type": "zone_closure", "affected_zones": ["600001"], "source": "NewsAPI", "is_active": false, "description": "Market closure in Chennai for 48 hours" }
+  ],
+  "platform_events": [
+    { "name": "Amazon Flex Zone Suspension", "platform": "amazon", "duration_hours": 4, "affected_zones": ["560001"], "source": "Platform API", "is_active": false, "description": "Amazon suspends deliveries in zone" },
+    { "name": "Flipkart Delivery Halt - Weather", "platform": "flipkart", "duration_hours": 6, "affected_zones": ["400001"], "source": "Platform API", "is_active": false, "description": "Flipkart halts deliveries in flooded zones" }
+  ]
+}

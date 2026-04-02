@@ -1,0 +1,42 @@
+[
+  {
+    "pincode": "560001",
+    "city": "Bengaluru",
+    "risk_score": 45,
+    "disruption_history_12m": 3,
+    "is_flood_prone": false,
+    "is_curfew_prone": true
+  },
+  {
+    "pincode": "560002",
+    "city": "Bengaluru",
+    "risk_score": 60,
+    "disruption_history_12m": 6,
+    "is_flood_prone": true,
+    "is_curfew_prone": true
+  },
+  {
+    "pincode": "400001",
+    "city": "Mumbai",
+    "risk_score": 75,
+    "disruption_history_12m": 9,
+    "is_flood_prone": true,
+    "is_curfew_prone": false
+  },
+  {
+    "pincode": "110001",
+    "city": "Delhi",
+    "risk_score": 70,
+    "disruption_history_12m": 8,
+    "is_flood_prone": false,
+    "is_curfew_prone": true
+  },
+  {
+    "pincode": "600001",
+    "city": "Chennai",
+    "risk_score": 65,
+    "disruption_history_12m": 7,
+    "is_flood_prone": true,
+    "is_curfew_prone": false
+  }
+]
